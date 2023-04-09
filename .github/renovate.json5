@@ -1,0 +1,17 @@
+{
+  $schema: "https://docs.renovatebot.com/renovate-schema.json",
+  extends: [
+    "config:base",
+    "group:allNonMajor",
+    "schedule:weekly",
+    ":automergeMinor",
+  ],
+  dependencyDashboardAutoclose: true,
+  dependencyDashboardHeader: "\
+This issue lists Renovate updates and detected dependencies. See the Renovate \
+[docs](https://docs.renovatebot.com/key-concepts/dashboard/) and/or the \
+[job log](https://app.renovatebot.com/dashboard#github/nuztalgia/scss-squish) \
+for more information.",
+  automergeType: "branch",
+  ignoreTests: true,
+}
