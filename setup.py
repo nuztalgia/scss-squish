@@ -3,7 +3,7 @@ from setuptools import setup
 setup(
     install_requires=[
         "csscompressor ==0.9.5",
-        "humanize ==4.8.0",
+        "humanize ==4.9.0",
         "pyperclip ==1.8.2",
         "requests ==2.31.0",
     ],
