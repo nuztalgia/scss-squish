@@ -5,7 +5,7 @@ setup(
         "csscompressor ==0.9.5",
         "humanize ==4.15.0",
         "pyperclip ==1.11.0",
-        "requests ==2.32.5",
+        "requests ==2.33.0",
     ],
     url="https://github.com/nuztalgia/scss-squish",
 )
